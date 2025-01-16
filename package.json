@@ -1,6 +1,8 @@
 {
+  
   "name": "portfolio",
   "private": true,
+  "homepage": "https://Billal0845.github.io/react-portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
