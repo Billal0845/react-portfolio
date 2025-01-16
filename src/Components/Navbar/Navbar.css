@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 170px;
+  font-family: "outfit";
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.nav-menu li:hover {
+  cursor: pointer;
+
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.nav-connect {
+  padding: 20px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 18px;
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923f1 102.06%);
+  transition: 0.5s;
+  font-family: "outfit";
+}
+
+.nav-connect:hover {
+  transform: scale(1.05);
+}
+.anchor-link {
+  text-decoration: none;
+  color: white;
+}
+
+.logo{
+  width: 160px;
+  height: 160px;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.logo:hover{
+  scale: 1.2;
+  transition: ease-in-out;
+  transition: 0.5;
+}

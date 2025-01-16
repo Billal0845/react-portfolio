@@ -1,0 +1,87 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 80px 170px;
+}
+.Footer-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.Footer-top-left p {
+  font-size: 16px;
+  max-width: 400px;
+}
+
+.Footer-top-right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.footer-top-right-email {
+  display: flex;
+  padding: 20px 30px;
+  background-color: #32323b;
+  gap: 10px;
+  padding-right: 35px;
+  border-radius: 50px;
+}
+
+.footer-top-right-email:hover {
+  border: 3px solid white;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.footer-top-right-email input {
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  font-family: "outfit";
+  color: #a0a0a0;
+}
+
+.Footer-subsribe {
+  padding: 20px 35px;
+  background: linear-gradient(270deg, #df8908 50%, #b923f1 102.06%);
+  border-radius: 50px;
+  font-size: 18px;
+  color: white;
+  font-family: "outfit";
+}
+
+.Footer-subsribe:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.Footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Footer-bottom-left p {
+ padding-top: 20px;
+  font-size: 16px;
+}
+
+.Footer-bottom-right {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+.Footer-bottom-right p {
+  font-size: 16px;
+}
+
+
+.ftr{
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 20px;
+}
